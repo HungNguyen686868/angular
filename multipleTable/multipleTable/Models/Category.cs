@@ -8,6 +8,14 @@ namespace multipleTable.Models
 {
     public class Category
     {
+        public Category()
+        {
+            Id = 1;
+            Name = "Hung";
+            SortOrder = 1;
+            IsShowOnHome = false;
+            Status = Status.Active;
+        }
         public int Id { set; get; }
         public string Name { set; get; }
         public int SortOrder { set; get; }

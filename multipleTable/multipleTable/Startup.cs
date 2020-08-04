@@ -28,8 +28,14 @@ namespace multipleTable
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-
-            services.AddDbContext<MultipleTableDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+            });
+            //services.AddDbContext<MultipleTableDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,6 +45,9 @@ namespace multipleTable
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors(
+                options => options.AllowAnyOrigin()
+                );
             //app.Use(async (ctx, next) =>
             //{
             //    await next();

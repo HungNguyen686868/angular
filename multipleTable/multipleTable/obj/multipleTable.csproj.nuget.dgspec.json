@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Desktop\\New folder\\multipleTable\\multipleTable\\multipleTable.csproj": {}
+    "D:\\a Hung\\web api\\angular\\multipleTable\\multipleTable\\multipleTable.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Desktop\\New folder\\multipleTable\\multipleTable\\multipleTable.csproj": {
+    "D:\\a Hung\\web api\\angular\\multipleTable\\multipleTable\\multipleTable.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\New folder\\multipleTable\\multipleTable\\multipleTable.csproj",
+        "projectUniqueName": "D:\\a Hung\\web api\\angular\\multipleTable\\multipleTable\\multipleTable.csproj",
         "projectName": "multipleTable",
-        "projectPath": "C:\\Users\\admin\\Desktop\\New folder\\multipleTable\\multipleTable\\multipleTable.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\New folder\\multipleTable\\multipleTable\\obj\\",
+        "projectPath": "D:\\a Hung\\web api\\angular\\multipleTable\\multipleTable\\multipleTable.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\a Hung\\web api\\angular\\multipleTable\\multipleTable\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
